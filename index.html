@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
   <title>Form Vlidator</title>
 </head>
 <body>
   <div class="container">
-    <div id="form" class="form">
+    <form id="form" class="form">
       <h2>Register With Us</h2>
       <div class="form-control">
         <label for="username">Username</label>
@@ -27,11 +28,11 @@
       </div>
       <div class="form-control">
         <label for="confirm-password">Confirm Password</label>
-        <input type="text" id="confirm-password" placeholder="Confirm Password">
+        <input type="password" id="confirm-password" placeholder="Confirm Password">
         <small>Error Message</small>
       </div>
-      <button>Submit</button>
-    </div>
+      <button type="submit">Submit</button>
+    </form>
   </div>
 
   <script src="script.js"></script>
